@@ -1,0 +1,36 @@
+{
+  "name": "ikechukwuokalia/otp-email.cwapp",
+  "description": "Generic Helper for Catali Web OS",
+  "keywords": ["email","otp", "cws", "catali", "web", "os"],
+  "homepage": "https://github.com/ikechukwuokalia/otp-email.cwapp",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ikechukwu Okalia",
+      "email": "dev@ikechukwuokalia.com"
+    }
+  ],
+  "require": {
+    "tymfrontiers-cdn/php-data" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-mysql-database" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-mysql-database-object" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-pagination" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-instance-error" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-validator" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-generic" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-multiform" : ">=0.1@stable",
+    "ikechukwuokalia/email-service.cwapp" : ">=0.1@stable",
+    "ikechukwuokalia/helper.cwapp" : ">=0.1@stable",
+    "ikechukwuokalia/fileman.cwapp" : ">=0.1@stable"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "IO\\" : "src/",
+      "Catali\\OTP\\" : "src/"
+    },
+    "files" : [
+    ]
+  }
+}
